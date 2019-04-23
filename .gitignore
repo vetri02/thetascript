@@ -58,3 +58,9 @@ public/
 
 # Bundle stats
 bundle-stats.json
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride

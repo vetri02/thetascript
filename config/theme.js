@@ -1,8 +1,8 @@
 import { lighten } from 'polished'
 
 const colors = {
-  primary: '#d02e77', // Color for buttons or links
-  primaryLight: lighten(0.05, '#d02e77'),
+  primary: '#16479D', // Color for buttons or links
+  primaryLight: lighten(0.05, '#16479D'),
   bg: 'white', // Background color
   grey: {
     dark: 'rgba(0, 0, 0, 0.9)',
@@ -20,6 +20,7 @@ const transitions = {
 const fontSize = {
   small: '0.9rem',
 }
+
 
 const fontFamily = {
   serif: `'Bitter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', serif`,

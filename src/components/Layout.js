@@ -196,6 +196,8 @@ const Footer = styled.footer`
 
 const Layout = ({ children, customSEO }) => {
   const buildTime = useBuildTime()
+  const currentTime = new Date()
+  const year = currentTime.getFullYear()
 
   return (
     <ThemeProvider theme={theme}>
@@ -204,9 +206,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; 2019 by John Doe. All rights reserved. <br />
-          <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
-          <span>Last build: {buildTime}</span>
+          &copy; {year} by Vetri. All rights reserved. <br />
         </Footer>
       </>
     </ThemeProvider>
